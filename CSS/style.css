@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+.sc-main{
+    margin: 50px auto;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 45px;
+    width: 50%;
+}
+.sc-main > p{
+    text-align: center justify;
+    margin-top: 20px;
+}
+.sc-items-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 25px;
+}
+.sc-items-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    margin: 25px;
+    padding: 30px;
+}
+.sc-items p, .sc-items h4{
+    display: inline-block;
+    margin-top: 10px;
+}
+.sc-items{
+    padding: 20px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px #ccc;
+    
+}
+.sc-items p{
+    margin-left: 18px;
+    color: #ccc;
+}
+.clear-item{
+    height: 150px;
+    margin-bottom: 0;
+    padding: 20px;
+}
+.progress{
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid;
+    height: 15px;
+    display: flex;
+    justify-content: baseline;
+    border-radius: 15px;
+}
+.progress-bar{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+}
+figure{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 18px;
+}
+.cancer{
+    width: 79%;
+}
+.IDP{
+    width: 39%;
+}
+.war{
+    width: 18%;
+}
+.flood{
+    width: 58%;
+}
+.sexually{
+    width: 93%;
+}
+.orphan{
+    width: 36%;
+}
